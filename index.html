@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <title>ProxyLab</title>
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="container header">
+                <!-- кодирование хедера -->
+
+                <div class="header-top">
+                    <a href="#" class="header-top__link">
+                        <img
+                            src="./images/Logo-Proxylab.svg"
+                            alt=""
+                            class="header-top__link_logo"
+                        />
+                    </a>
+                    <nav class="header-top__nav">
+                        <a href="#" class="header-top__nav_link"
+                            >pricing & plans</a
+                        ><a href="#" class="header-top__nav_link">support</a
+                        ><a href="#" class="header-top__nav_link">about us</a>
+                    </nav>
+                    <button class="header-top__btn">contact us</button>
+
+                    <!-- выподающее меню -->
+
+                    <div class="burger-menu">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+
+                <!-- модальное окно -->
+
+                <div class="modal">
+                    <div class="modal-window">
+                        <div class="modal-window__content">
+                            <div class="modal-window__content_head">
+                                <img src="./images/Logo-Proxylab.svg" alt="" />
+                                <button id="close">X</button>
+                            </div>
+                            <form class="modal-window__content_body">
+                                <div class="modal-window__content_body-info">
+                                    <label for="name">Enter your name:</label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        placeholder="Name"
+                                    />
+                                </div>
+                                <div class="modal-window__content_body-info">
+                                    <label for="email">Enter your email:</label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        placeholder="Email"
+                                    />
+                                </div>
+                                <button
+                                    type="submit"
+                                    class="modal-window__content_body-btn"
+                                >
+                                    Send
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- баннер -->
+
+                <div class="header-banner">
+                    <div class="header-banner__info">
+                        <h1 class="header-banner__info_title">
+                            best <span>marketing</span> digital agency
+                        </h1>
+                        <p class="header-banner__info_text">
+                            Various versions have evolved over the years,
+                            sometimes by accident, sometimes on purpose
+                        </p>
+                        <div class="header-banner__info_items banner-btn">
+                            <button class="banner-btn__start">
+                                get started
+                            </button>
+                            <a
+                                href="#"
+                                target="_blank"
+                                class="banner-btn__watch"
+                            >
+                                <div>
+                                    <svg
+                                        width="17"
+                                        height="20"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M0.956789 18.329V1.67002C0.956603 1.50675 1.0014 1.34644 1.08646 1.20594C1.17153 1.06544 1.29373 0.949939 1.44022 0.871569C1.58671 0.793199 1.75208 0.754855 1.91897 0.760566C2.08585 0.766277 2.24808 0.815833 2.38861 0.904026L15.7065 9.234C15.8383 9.31614 15.9468 9.42943 16.0219 9.5634C16.0971 9.69737 16.1365 9.8477 16.1365 10.0005C16.1365 10.1533 16.0971 10.3036 16.0219 10.4376C15.9468 10.5716 15.8383 10.6849 15.7065 10.767L2.38861 19.096C2.248 19.1842 2.08568 19.2338 1.91871 19.2394C1.75174 19.2451 1.58629 19.2067 1.43977 19.1282C1.29324 19.0497 1.17106 18.9341 1.08607 18.7934C1.00108 18.6528 0.956419 18.4923 0.956789 18.329Z"
+                                            fill="#FD695A"
+                                        />
+                                    </svg>
+                                </div>
+                                watch video
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-banner__content">
+                        <img
+                            src="./images/banner-img__Happy_girls.png"
+                            alt=""
+                            class="header-banner__content_main-img"
+                        />
+                        <img
+                            src="./images/banner-icons.png"
+                            alt=""
+                            class="header-banner__content_icons"
+                        />
+                        <img
+                            src="./images/banner-img_ExpertTeamMembers.png"
+                            alt=""
+                            class="header-banner__content_members"
+                        />
+                        <img
+                            src="./images/banner-img_Project.png"
+                            alt=""
+                            class="header-banner__content_project"
+                        />
+                        <img
+                            src="./images/banner-img_Client.png"
+                            alt=""
+                            class="header-banner__content_client"
+                        />
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- основная часть сайта -->
+
+        <main class="page_main">
+            <section class="logotypes container">
+                <ul class="logotypes-list">
+                    <li class="logotypes-list__item">
+                        <a href="#" class="logotypes-list__link"
+                            ><img src="./images/logo-Slack.svg" alt=""
+                        /></a>
+                    </li>
+                    <li class="logotypes-list__item">
+                        <a href="#" class="logotypes-list__item_link"
+                            ><img src="./images/logo-Descript.svg" alt=""
+                        /></a>
+                    </li>
+                    <li class="logotypes-list__item">
+                        <a href="#" class="logotypes-list__item_link"
+                            ><img src="./images/logo-Etsy.svg" alt=""
+                        /></a>
+                    </li>
+                    <li class="logotypes-list__item">
+                        <a href="#" class="logotypes-list__item_link"
+                            ><img src="./images/logo-Spotify.svg" 1alt=""
+                        /></a>
+                    </li>
+                    <li class="logotypes-list__item">
+                        <a href="#" class="logotypes-list__item_link"
+                            ><img src="./images/logo-Logitech.svg" alt=""
+                        /></a>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- секция сервиса -->
+
+            <section class="service container">
+                <div class="service-content">
+                    <div class="service-content__grid">
+                        <h3 class="service-content__grid_question-title">
+                            what we do
+                        </h3>
+                        <h2 class="service-content__grid_answer-title rocket">
+                            we are here to help you build your business
+                        </h2>
+                        <p class="service-content__grid_text">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            of the voluptatem accusantium lorem sit doloremque,
+                            totam rem aperiam, eaque ipsa quae ab illo invento
+                            veritatis quasi architecto beatae vitae dicta.
+                        </p>
+                        <button class="service-content__grid_btn">
+                            Explore all service
+                        </button>
+                    </div>
+                    <div class="service-content__grid">
+                        <div class="service-content__grid_items">
+                            <div
+                                class="service-content__grid_items-item service-item"
+                            >
+                                <div class="service-item__icon green-icon">
+                                    <img
+                                        src="./images/icon-DigitalMarketing.png"
+                                        class="service-item__icon_img"
+                                        alt=""
+                                    />
+                                </div>
+                                <h3 class="service-item__title">
+                                    Digital Marketing
+                                </h3>
+                                <p class="service-item__text">
+                                    That is the simply dummy text the printing
+                                    and typesetting industry.
+                                </p>
+                                <button class="service-item__btn">
+                                    Read more
+                                </button>
+                            </div>
+                            <div
+                                class="service-content__grid_items-item service-item"
+                            >
+                                <div class="service-item__icon violet-icon">
+                                    <img
+                                        src="./images/icon-SEO.png"
+                                        class="service-item__icon_img"
+                                        alt=""
+                                    />
+                                </div>
+                                <h3 class="service-item__title">SEO</h3>
+                                <p class="service-item__text">
+                                    That is the simply dummy text the printing
+                                    and typesetting industry.
+                                </p>
+                                <button class="service-item__btn">
+                                    Read more
+                                </button>
+                            </div>
+                            <div
+                                class="service-content__grid_items-item service-item"
+                            >
+                                <div class="service-item__icon orange-icon">
+                                    <img
+                                        src="./images/icon-UI_UX__Design.png"
+                                        class="service-item__icon_img"
+                                        alt=""
+                                    />
+                                </div>
+                                <h3 class="service-item__title">
+                                    UI UX Design
+                                </h3>
+                                <p class="service-item__text">
+                                    That is the simply dummy text the printing
+                                    and typesetting industry.
+                                </p>
+                                <button class="service-item__btn">
+                                    Read more
+                                </button>
+                            </div>
+                            <div
+                                class="service-content__grid_items-item service-item"
+                            >
+                                <div class="service-item__icon blue-icon">
+                                    <img
+                                        src="./images/icon-WebDevelopment.png"
+                                        class="service-item__icon_img"
+                                        alt=""
+                                    />
+                                </div>
+                                <h3 class="service-item__title">
+                                    Web Development
+                                </h3>
+                                <p class="service-item__text">
+                                    That is the simply dummy text the printing
+                                    and typesetting industry.
+                                </p>
+                                <button class="service-item__btn">
+                                    Read more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about container">
+                <div class="about-content">
+                    <div class="about-content__grid">
+                        <h3 class="about-content__grid_question-title">
+                            about us
+                        </h3>
+                        <h2 class="about-content__grid_answer-title">
+                            We're More Than Digital Agency in the World
+                        </h2>
+                        <p class="about-content__grid_text">
+                            Sed ut perspiciatis unde omnis iste natus error sit
+                            of the voluptatem accusantium lorem sit doloremque,
+                            totam rem aperiam, eaque ipsa quae ab illo invento
+                            veritatis quasi architecto beatae vitae dicta.
+                        </p>
+                        <button class="about-content__grid_btn">
+                            Get in touch
+                        </button>
+                    </div>
+                    <div class="about-content__img">
+                        <img src="./images/AboutUs-image.png" alt="" />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Подвал сайта -->
+        <footer class="footer">
+            <div class="footer-top container">
+                <div class="footer-top__content">
+                    <div class="footer-top__content_main">
+                        <div class="footer-top__content_main-logo">
+                            <img src="./images/Logo-Proxylab.svg" alt="!#" />
+                        </div>
+                        <a
+                            href="#"
+                            class="footer-top__content_main-location"
+                        >
+                            <img src="./images/icon-Location.svg" alt="#" />
+                            <span>Dhaka, Bangladesh</span>
+                        </a>
+                        <a href="#" class="footer-top__content_main-tel">
+                            <img src="./images/icon-Calling.svg" alt="#" />
+                            <span>0943833399</span>
+                        </a>
+                        <a href="#" class="footer-top__content_main-mail">
+                            <img src="./images/icon-Message.svg" alt="#" />
+                            <span>support@proxylab.com</span>
+                        </a>
+                    </div>
+                    <div class="footer-top__content_item">
+                        <h4 class="footer-top__content_item-title">Service</h4>
+                        <ul class="footer-top__content_item-list">
+                            <li><a href="#">UI UX Design</a></li>
+                            <li><a href="#">Mobile Design</a></li>
+                            <li><a href="#">Motion Graphic</a></li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Digital Marketing</a></li>
+                            <li><a href="#">Business Development</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__content_item">
+                        <h4 class="footer-top__content_item-title">Company</h4>
+                        <ul class="footer-top__content_item-list">
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__content_item">
+                        <h4 class="footer-top__content_item-title">
+                            Our Social Media
+                        </h4>
+                        <ul class="footer-top__content_item-list">
+                            <li><a href="#">Dribbble</a></li>
+                            <li><a href="#">Behance</a></li>
+                            <li><a href="#">Medium</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top__content_item">
+                        <h4 class="footer-top__content_item-title">
+                            Join a Newsletter
+                        </h4>
+                        <form action="" class="footer-top__content_item-form">
+                            <label for="e-mail">your email</label>
+                            <input
+                                type="email"
+                                id="e-mail"
+                                placeholder="enter your email"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-content container">
+                    <h5 class="footer-content__text">
+                        © 2021 proxylab - All rights reserved.
+                    </h5>
+                    <ul class="footer-content__list">
+                        <li class="footer-content__list_item"><a href="#"></a>privacy</li>
+                        <li class="footer-content__list_item"><a href="#"></a>securuty</li>
+                        <li class="footer-content__list_item"><a href="#"></a>terms</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
